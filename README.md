@@ -98,7 +98,7 @@ When i'm not coding, you can usually find me [ hobbies(Internet Surfing,Bike rid
 <div>
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=itspksharma&show_icons=true&locale=en&layout=compact" alt="itspksharma" /></div></br>
 
-<div><img align="right" src="https://github-readme-stats.vercel.app/api?username=itspksharma&show_icons=true&locale=en" alt="itspksharma" />
+<div><img align="left" src="https://github-readme-stats.vercel.app/api?username=itspksharma&show_icons=true&locale=en" alt="itspksharma" />
 </div>
 <div><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=itspksharma&" alt="itspksharma" />
 </div>
