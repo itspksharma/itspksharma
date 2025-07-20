@@ -1,8 +1,9 @@
 <!-- GitHub Profile README with Modern Style -->
 <!-- Banner Image -->
 <p align="center">
-  <img src="./banner.svg" alt="Banner" width="100%">
+  <img src="./banner.svg" alt="Animated Banner" width="100%" />
 </p>
+
 
 <h1 align="center">Hey 👋 I'm Pawan Kumar Sharma</h1>
 <h3 align="center">🚀 MERN Stack Developer | 💡 Lifelong Learner | 🛠️ Project Builder</h3>
