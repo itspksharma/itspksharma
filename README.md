@@ -1,7 +1,7 @@
 <!-- GitHub Profile README with Modern Style -->
 <!-- Banner Image -->
 <p align="center">
-  <img src="./banner.svg" alt="Animated Banner" width="100%" />
+  <img src="./assets/banner.svg" alt="Animated Banner" width="100%" />
 </p>
 
 
