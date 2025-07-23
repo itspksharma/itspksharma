@@ -53,7 +53,16 @@ const pawan = {
 ## 🚀 Highlight Projects
 
 <!-- PROJECTS:START -->
-<!-- Will be replaced by GitHub Action -->
+## 🚀 Highlight Projects
+
+| Project | Description | Tech | Link |
+|---------|-------------|------|------|
+| 🚀 itspksharma | No description | N/A | [Repo](https://github.com/itspksharma/itspksharma) |
+| 🚀 just-download-for-android |  Mobile version of the "Just Download" app – built for Android using React Native (Frontend) and Python Flask (Backend). 🔗 Supports downloading videos from YouTube, Instagram, and Facebook. 🚀 Fast, Free, and Easy to Use – powered by a lightweight Python API. | Python | [Repo](https://github.com/itspksharma/just-download-for-android) |
+| 🚀 just-download | 📥 Just-Download — A clean, no-hassle app to download videos in one click. | Python | [Repo](https://github.com/itspksharma/just-download) |
+| 🚀 sky-verse | Real-time weather with immersive background visuals and matching quotes — feel the sky with Sky-Verse. ☁️🌦️ | N/A | [Repo](https://github.com/itspksharma/sky-verse) |
+| 🚀 news-sathi | An Indian-themed news reader app that brings trending news in a clean, minimalist UI 🇮🇳📱 | N/A | [Repo](https://github.com/itspksharma/news-sathi) |
+
 <!-- PROJECTS:END -->
 
 
