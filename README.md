@@ -4,8 +4,8 @@
   <img src="./assets/banner.svg" alt="Animated Banner" width="100%" />
 </p>
 
-
-<h1 align="center">Hey 👋 I'm Pawan Kumar Sharma</h1>
+<h1 align="center">🙏 राधे राधे 🙏</h1>
+<h1 align="center">I'm Pawan Kumar Sharma</h1>
 <h3 align="center">🚀 MERN Stack Developer | 💡 Lifelong Learner | 🛠️ Project Builder</h3>
 
 <p align="center">
@@ -19,9 +19,14 @@
 
 ---
 
-### 🎯 Tagline
+### 🎯 Goal
 
-> "Code. Create. Collaborate."
+**"न हि ज्ञानेन सदृशं पवित्रमिह विद्यते।"**  
+*— "There is nothing in this world as pure as true knowledge." (Bhagavad Gita 4.38)*
+
+<My goal is to keep learning, keep building, and grow into a better developer every day.  
+I aspire to become a strong contributor in the tech space — not just with skills, but with purpose, curiosity, and a learner’s mindset.>
+
 <p align="Right">
   <img src="https://komarev.com/ghpvc/?username=itspksharma&label=Profile+Views&color=orange&style=flat" alt="itspksharma" />
 </p>
@@ -32,6 +37,7 @@
 ### 🧠 About Me
 
 ```
+
 js
 const pawan = {
   code: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MySQL"],
@@ -116,6 +122,10 @@ const pawan = {
 
 > *"Code. Create. Collaborate." ~ Pawan Kumar Sharma*
 ```
+🌱 When I’m not coding or building projects, I love to recharge by exploring nature — be it ancient temples, peaceful waterfalls, or hidden trails on my bike.  
+Every ride to a new place brings a fresh perspective, and reminds me that just like code, life is best when we explore, break limits, and stay curious. 🌄
+
+💬 Always open to collaboration, learning, or just a tech chat — drop a message anytime!
 
 ---
 
