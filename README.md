@@ -50,10 +50,8 @@ const pawan = {
 
 ---
 
-## 🚀 Highlight Projects
-
 <!-- PROJECTS:START -->
-## 🚀 Highlight Projects
+### 📂 Highlight Projects
 
 | Project | Description | Tech | Link |
 |---------|-------------|------|------|
@@ -65,14 +63,6 @@ const pawan = {
 
 <!-- PROJECTS:END -->
 
-
-### 📂 Highlight Projects
-
-| Project | Description | Tech | Link |
-|--------|-------------|------|------|
-| 💻 Mood Tab | Chrome tab with moods, videos, weather | HTML, JS | [Repo](https://github.com/itspksharma/chrome-mood-tab-extension) |
-| 🍕 Teaste of Italia | Food order app | React, Node.js | [Repo](https://github.com/itspksharma/teaste-of-italia-food-order-app) |
-| 🌐 Portfolio | Dynamic portfolio site | HTML, CSS, JS | [Repo](https://github.com/itspksharma/my-portfolio) |
 
 ---
 
@@ -98,9 +88,6 @@ const pawan = {
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=itspksharma&theme=gruvbox&hide_border=true" />
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/itspksharma/itspksharma/output/github-contribution-grid-snake.svg" />
-</p>
 
 ---
 
