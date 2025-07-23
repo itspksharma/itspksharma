@@ -29,12 +29,18 @@
 
 ```js
 const pawan = {
-  code: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MySQL"],
-  learning: ["Java", "Python", "MongoDB"],
-  futurePlan: ["C++", "C#", ".NET", "AI", "Ethical Hacking"],
-  interests: ["Solo Travel", "Biking", "Tech Experiments"],
-  goal: "To build real-world products & grow as a Full Stack Developer"
-}
+  code: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MySQL"],
+  learning: ["Java", "Python", "MongoDB", "PHP"],
+  futureGoals: [
+    "Explore system-level programming with C++",
+    "Learn C# and .NET for enterprise-grade applications",
+    "Dive deeper into Artificial Intelligence",
+    "Gain foundational knowledge in Ethical Hacking"
+  ],
+  interests: ["Solo Travel", "Biking", "Tech Experiments"],
+  goal: "To build impactful, real-world products and grow as a Full Stack Developer."
+};
+
 ```
 
 ---
