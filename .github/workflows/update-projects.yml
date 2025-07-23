@@ -2,8 +2,12 @@ name: Update Projects Section
 
 on:
   schedule:
-    - cron: '0 0 * * 1'  # हर सोमवार
+    - cron: '0 0 * * 1'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 
 jobs:
   update-projects:
