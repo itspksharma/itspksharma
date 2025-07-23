@@ -22,7 +22,9 @@
 ### 🎯 Tagline
 
 > "Code. Create. Collaborate."
-
+<p align="Right">
+  <img src="https://komarev.com/ghpvc/?username=itspksharma&label=Profile+Views&color=orange&style=flat" alt="itspksharma" />
+</p>
 ---
 
 ### 🧠 About Me
@@ -68,12 +70,15 @@ const pawan = {
 
 ---
 
-### 📈 GitHub Stats
-
+## 📊 GitHub Stats & Activity
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itspksharma&show_icons=true&theme=gruvbox" width="47%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=itspksharma&theme=gruvbox" width="47%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itspksharma&layout=compact&theme=gruvbox&hide_border=true" width="47%" />
 </p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=itspksharma&show_icons=true&theme=gruvbox&hide_border=true" width="47%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=itspksharma&theme=gruvbox&hide_border=true" width="47%" />
+</p>
+
 
 ---
 
