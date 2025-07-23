@@ -1,9 +1,12 @@
 const fs = require("fs");
 const axios = require("axios");
 
-const username = "itspksharma"; // Change to your GitHub username
-const token = process.env.GITHUB_TOKEN; // Set in GitHub secrets
+const username = "itspksharma"; // GitHub username
+const token = process.env.GITHUB_TOKEN; // GitHub Secret
 const readmePath = "README.md";
+
+const startMarker = "<!-- PROJECTS:START -->";
+const endMarker = "<!-- PROJECTS:END -->";
 
 // Fetch repositories
 async function getRepositories() {
@@ -40,53 +43,60 @@ async function getLanguages(repoName) {
         },
       }
     );
-    return Object.keys(response.data).join(", ") || "N/A";
+    const langs = Object.keys(response.data);
+    return langs.length > 0 ? langs.join(", ") : null;
   } catch (err) {
-    return "N/A";
+    return null;
   }
 }
 
-// Format a single project row
-function formatProject(repo, tech) {
-  return `| [${repo.name}](${repo.html_url}) | ${repo.description || "No description"} | ${tech} | [🔗 Visit](${repo.html_url}) |`;
+// Format one row
+function formatProject(repo, tech, star) {
+  return `| ${star} | [${repo.name}](${repo.html_url}) | ${repo.description || "No description"} | ${tech} | [🔗 Visit](${repo.html_url}) |`;
 }
 
-// Main logic
 (async () => {
   const repos = await getRepositories();
-
   const filteredRepos = [];
 
   for (const repo of repos) {
-    if (repo.fork || repo.size === 0) continue; // Ignore forks and empty repos
+    if (repo.fork || repo.size === 0 || !repo.pushed_at) continue;
 
     const tech = await getLanguages(repo.name);
-    if (tech === "N/A") continue; // Ignore repos with no tech/language
+    if (!tech) continue;
 
-    filteredRepos.push({ ...repo, tech });
+    const star = repo.stargazers_count > 0 ? "⭐" : "";
+    filteredRepos.push({ ...repo, tech, star });
   }
 
-  // Sort: Starred first, then recently updated
   filteredRepos.sort((a, b) => {
-    if (a.stargazers_count === b.stargazers_count) {
-      return new Date(b.updated_at) - new Date(a.updated_at);
+    if (b.stargazers_count !== a.stargazers_count) {
+      return b.stargazers_count - a.stargazers_count;
     }
-    return b.stargazers_count - a.stargazers_count;
+    return new Date(b.pushed_at) - new Date(a.pushed_at);
   });
 
   const projectTable = [
     "## 🚀 Highlight Projects",
     "",
-    "| Project | Description | Tech | Link |",
-    "|---------|-------------|------|------|",
-    ...filteredRepos.map(repo => formatProject(repo, repo.tech)),
-  ];
+    "| ⭐ | Project | Description | Tech | Link |",
+    "|----|---------|-------------|------|------|",
+    ...filteredRepos.map(repo =>
+      formatProject(repo, repo.tech, repo.star)
+    ),
+  ].join("\n");
 
-  const readme = fs.readFileSync(readmePath, "utf8");
-  const newReadme = readme.replace(
-    /## 🚀 Highlight Projects[\s\S]*?(?=\n## |$)/,
-    projectTable.join("\n")
-  );
+  // Inject into README
+  let readme = fs.readFileSync(readmePath, "utf8");
+  const newSection = `${startMarker}\n${projectTable}\n${endMarker}`;
 
-  fs.writeFileSync(readmePath, newReadme);
+  const regex = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`, "gm");
+  if (readme.match(regex)) {
+    readme = readme.replace(regex, newSection);
+  } else {
+    readme += `\n\n${newSection}`;
+  }
+
+  fs.writeFileSync(readmePath, readme);
+  console.log("✅ README.md updated with latest project list");
 })();
