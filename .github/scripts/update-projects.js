@@ -9,30 +9,41 @@ async function getRepos() {
   return response.data;
 }
 
-function formatProject(repo) {
-  return `| 🚀 ${repo.name} | ${repo.description || 'No description'} | ${repo.language || 'N/A'} | [Repo](${repo.html_url}) |`;
-}
-
 async function updateReadme() {
   const repos = await getRepos();
 
   const projectTable = [
     '## 🚀 Highlight Projects',
     '',
-    '| Project | Description | Tech | Link |',
-    '|---------|-------------|------|------|',
+    '| ⭐ | Project | Description | Tech | Link |',
+    '|----|---------|-------------|------|------|',
     ...repos
-      .filter(repo => !repo.fork)
-      .sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))
-      .slice(0, 5)
-      .map(formatProject),
+      .filter(repo =>
+        !repo.fork &&
+        repo.size > 0 &&
+        repo.pushed_at
+      )
+      .sort((a, b) => {
+        if (b.stargazers_count !== a.stargazers_count) {
+          return b.stargazers_count - a.stargazers_count;
+        }
+        return new Date(b.pushed_at) - new Date(a.pushed_at);
+      })
+      .map(repo => {
+        const star = repo.stargazers_count > 0 ? '⭐' : '';
+        const description = repo.description ? repo.description.replace(/\n/g, ' ') : 'No description';
+        const tech = repo.language || 'N/A';
+        const name = `[${repo.name}](${repo.html_url})`;
+
+        return `| ${star} | ${name} | ${description} | ${tech} | 🔗 [Link](${repo.html_url}) |`;
+      }),
     ''
   ].join('\n');
 
-  let readme = fs.readFileSync(readmePath, 'utf8');
-
   const startMarker = '<!-- PROJECTS:START -->';
   const endMarker = '<!-- PROJECTS:END -->';
+
+  let readme = fs.readFileSync(readmePath, 'utf8');
 
   const regex = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`, 'gm');
   const newContent = `${startMarker}\n${projectTable}\n${endMarker}`;
