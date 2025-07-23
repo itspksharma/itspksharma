@@ -25,11 +25,14 @@
 <p align="Right">
   <img src="https://komarev.com/ghpvc/?username=itspksharma&label=Profile+Views&color=orange&style=flat" alt="itspksharma" />
 </p>
+
+
 ---
 
 ### 🧠 About Me
 
-```js
+```
+js
 const pawan = {
   code: ["HTML", "CSS", "JavaScript", "React", "Node.js", "MySQL"],
   learning: ["Java", "Python", "MongoDB", "PHP"],
@@ -46,6 +49,13 @@ const pawan = {
 ```
 
 ---
+
+## 🚀 Highlight Projects
+
+<!-- PROJECTS:START -->
+<!-- Will be replaced by GitHub Action -->
+<!-- PROJECTS:END -->
+
 
 ### 📂 Highlight Projects
 
