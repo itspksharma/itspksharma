@@ -59,26 +59,25 @@ const pawan = {
 
 ### 🛠️ Tech Stack
 
-![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5)
-![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react)
-![Node](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js)
-![MySQL](https://img.shields.io/badge/-MySQL-00758F?style=flat-square&logo=mysql)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,mongodb,js,express,html,css,python,git,github,java,php,mysql" />
+</p>
 
 ---
 
 ## 📊 GitHub Stats & Activity
-<p align="center">
+
+ <p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=itspksharma&show_icons=true&theme=gruvbox&hide_border=true" width="47%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itspksharma&layout=compact&theme=gruvbox&hide_border=true" width="47%" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itspksharma&show_icons=true&theme=gruvbox&hide_border=true" width="47%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=itspksharma&theme=gruvbox&hide_border=true" width="47%" />
+  <img src="https://streak-stats.demolab.com?user=itspksharma&theme=gruvbox&hide_border=true" width="47%" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itspksharma&theme=gruvbox&hide_border=true" />
+</p>
 
 ---
 
