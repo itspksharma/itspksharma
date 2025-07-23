@@ -51,15 +51,19 @@ const pawan = {
 ---
 
 <!-- PROJECTS:START -->
-### 📂 Highlight Projects
+## 🚀 Highlight Projects
 
-| Project | Description | Tech | Link |
-|---------|-------------|------|------|
-| 🚀 itspksharma | No description | N/A | [Repo](https://github.com/itspksharma/itspksharma) |
-| 🚀 just-download-for-android |  Mobile version of the "Just Download" app – built for Android using React Native (Frontend) and Python Flask (Backend). 🔗 Supports downloading videos from YouTube, Instagram, and Facebook. 🚀 Fast, Free, and Easy to Use – powered by a lightweight Python API. | Python | [Repo](https://github.com/itspksharma/just-download-for-android) |
-| 🚀 just-download | 📥 Just-Download — A clean, no-hassle app to download videos in one click. | Python | [Repo](https://github.com/itspksharma/just-download) |
-| 🚀 sky-verse | Real-time weather with immersive background visuals and matching quotes — feel the sky with Sky-Verse. ☁️🌦️ | N/A | [Repo](https://github.com/itspksharma/sky-verse) |
-| 🚀 news-sathi | An Indian-themed news reader app that brings trending news in a clean, minimalist UI 🇮🇳📱 | N/A | [Repo](https://github.com/itspksharma/news-sathi) |
+| ⭐ | Project | Description | Tech | Link |
+|----|---------|-------------|------|------|
+| ⭐ | [just-download](https://github.com/itspksharma/just-download) | 📥 Just-Download — A clean, no-hassle app to download videos in one click. | Python | 🔗 [Link](https://github.com/itspksharma/just-download) |
+| ⭐ | [my-portfolio](https://github.com/itspksharma/my-portfolio) | My personal developer portfolio | CSS | 🔗 [Link](https://github.com/itspksharma/my-portfolio) |
+| ⭐ | [chrome-mood-tab-extension](https://github.com/itspksharma/chrome-mood-tab-extension) | Live video Chrome tab with moods, quotes & weather | JavaScript | 🔗 [Link](https://github.com/itspksharma/chrome-mood-tab-extension) |
+|  | [itspksharma](https://github.com/itspksharma/itspksharma) | No description | N/A | 🔗 [Link](https://github.com/itspksharma/itspksharma) |
+|  | [just-download-for-android](https://github.com/itspksharma/just-download-for-android) |  Mobile version of the "Just Download" app – built for Android using React Native (Frontend) and Python Flask (Backend). 🔗 Supports downloading videos from YouTube, Instagram, and Facebook. 🚀 Fast, Free, and Easy to Use – powered by a lightweight Python API. | Python | 🔗 [Link](https://github.com/itspksharma/just-download-for-android) |
+|  | [sky-verse](https://github.com/itspksharma/sky-verse) | Real-time weather with immersive background visuals and matching quotes — feel the sky with Sky-Verse. ☁️🌦️ | N/A | 🔗 [Link](https://github.com/itspksharma/sky-verse) |
+|  | [news-sathi](https://github.com/itspksharma/news-sathi) | An Indian-themed news reader app that brings trending news in a clean, minimalist UI 🇮🇳📱 | N/A | 🔗 [Link](https://github.com/itspksharma/news-sathi) |
+|  | [lifeline-blood-donor-system](https://github.com/itspksharma/lifeline-blood-donor-system) | MERN-based blood donor management platform with real-time search, admin dashboard & urgent alerts. | N/A | 🔗 [Link](https://github.com/itspksharma/lifeline-blood-donor-system) |
+|  | [Hospital_MS](https://github.com/itspksharma/Hospital_MS) | This Project is Developed using ASP.Net Framework and SQL Server Database | ASP.NET | 🔗 [Link](https://github.com/itspksharma/Hospital_MS) |
 
 <!-- PROJECTS:END -->
 
