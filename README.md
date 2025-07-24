@@ -2,6 +2,7 @@
 <!-- Banner Image -->
 <p align="center">
   <img src="./assets/banner.svg" alt="Animated Banner" width="100%" />
+  
 </p>
 
 <h1 align="center">🙏 राधे राधे 🙏</h1>
