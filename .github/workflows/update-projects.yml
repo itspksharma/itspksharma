@@ -25,6 +25,8 @@ jobs:
         run: |
           npm install axios
           node .github/scripts/update-projects.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and Push Changes
         run: |
@@ -33,5 +35,3 @@ jobs:
           git add README.md
           git commit -m "Updated project section" || echo "No changes"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
