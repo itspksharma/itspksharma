@@ -64,8 +64,8 @@ const pawan = {
 |----|---------|-------------|------|------|
 | ⭐ | [just-download](https://github.com/itspksharma/just-download) | 📥 Just-Download — A clean, no-hassle app to download videos in one click. | Python | [🔗 Visit](https://github.com/itspksharma/just-download) |
 | ⭐ | [my-portfolio](https://github.com/itspksharma/my-portfolio) | My personal developer portfolio | CSS, JavaScript, HTML | [🔗 Visit](https://github.com/itspksharma/my-portfolio) |
+| ⭐ | [chrome-mood-tab-extension](https://github.com/itspksharma/chrome-mood-tab-extension) | Live video Chrome tab with moods, quotes & weather | JavaScript, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/chrome-mood-tab-extension) |
 |  | [just-download-for-android](https://github.com/itspksharma/just-download-for-android) |  Mobile version of the "Just Download" app – built for Android using React Native (Frontend) and Python Flask (Backend). 🔗 Supports downloading videos from YouTube, Instagram, and Facebook. 🚀 Fast, Free, and Easy to Use – powered by a lightweight Python API. | Python | [🔗 Visit](https://github.com/itspksharma/just-download-for-android) |
-|  | [chrome-mood-tab-extension](https://github.com/itspksharma/chrome-mood-tab-extension) | Live video Chrome tab with moods, quotes & weather | JavaScript, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/chrome-mood-tab-extension) |
 |  | [Hospital_MS](https://github.com/itspksharma/Hospital_MS) | This Project is Developed using ASP.Net Framework and SQL Server Database | ASP.NET, C#, CSS | [🔗 Visit](https://github.com/itspksharma/Hospital_MS) |
 <!-- PROJECTS:END -->
 
