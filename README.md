@@ -20,6 +20,7 @@
 
 ---
 
+
 ### 🎯 Goal
 
 **"न हि ज्ञानेन सदृशं पवित्रमिह विद्यते।"**  
@@ -27,10 +28,6 @@
 
 <My goal is to keep learning, keep building, and grow into a better developer every day.  
 I aspire to become a strong contributor in the tech space — not just with skills, but with purpose, curiosity, and a learner’s mindset.>
-
-<p align="Right">
-  <img src="https://komarev.com/ghpvc/?username=itspksharma&label=Profile+Views&color=orange&style=flat" alt="itspksharma" />
-</p>
 
 
 ---
