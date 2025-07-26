@@ -71,8 +71,10 @@ const pawan = {
 |--------|---------|-------------|------|------|
 | 2 | [just-download](https://github.com/itspksharma/just-download) | 📥 Just-Download — A clean, no-hassle app to download videos in one click. | Python | [🔗 Visit](https://github.com/itspksharma/just-download) |
 | 3 | [chrome-mood-tab-extension](https://github.com/itspksharma/chrome-mood-tab-extension) | Live video Chrome tab with moods, quotes & weather | JavaScript, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/chrome-mood-tab-extension) |
-| 4 | [just-download-for-android](https://github.com/itspksharma/just-download-for-android) |  Mobile version of the "Just Download" app – built for Android using React Native (Frontend) and Python Flask (Backend). 🔗 Supports downloading videos from YouTube, Instagram, and Facebook. 🚀 Fast, Free, and Easy to Use – powered by a lightweight Python API. | Python | [🔗 Visit](https://github.com/itspksharma/just-download-for-android) |
-| 5 | [Hospital_MS](https://github.com/itspksharma/Hospital_MS) | This Project is Developed using ASP.Net Framework and SQL Server Database | ASP.NET, C#, CSS | [🔗 Visit](https://github.com/itspksharma/Hospital_MS) |
+| 4 | [sky-verse](https://github.com/itspksharma/sky-verse) | Real-time weather with immersive background visuals and matching quotes — feel the sky with Sky-Verse. ☁️🌦️ | JavaScript, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/sky-verse) |
+| 5 | [news-sathi](https://github.com/itspksharma/news-sathi) | An Indian-themed news reader app that brings trending news in a clean, minimalist UI 🇮🇳📱 | EJS, CSS, JavaScript | [🔗 Visit](https://github.com/itspksharma/news-sathi) |
+| 6 | [just-download-for-android](https://github.com/itspksharma/just-download-for-android) |  Mobile version of the "Just Download" app – built for Android using React Native (Frontend) and Python Flask (Backend). 🔗 Supports downloading videos from YouTube, Instagram, and Facebook. 🚀 Fast, Free, and Easy to Use – powered by a lightweight Python API. | Python | [🔗 Visit](https://github.com/itspksharma/just-download-for-android) |
+| 7 | [Hospital_MS](https://github.com/itspksharma/Hospital_MS) | This Project is Developed using ASP.Net Framework and SQL Server Database | ASP.NET, C#, CSS | [🔗 Visit](https://github.com/itspksharma/Hospital_MS) |
 </details>
 <!-- PROJECTS:END -->
 
