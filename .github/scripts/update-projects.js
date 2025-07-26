@@ -1,8 +1,8 @@
 const fs = require("fs");
 const axios = require("axios");
 
-const username = "itspksharma"; // GitHub username
-const token = process.env.GITHUB_TOKEN; // GitHub Secret
+const username = "itspksharma";
+const token = process.env.GITHUB_TOKEN;
 const readmePath = "README.md";
 
 const startMarker = "<!-- PROJECTS:START -->";
@@ -32,7 +32,7 @@ async function getRepositories() {
   return allRepos;
 }
 
-// Get languages of a repository
+// Get languages used in a repo
 async function getLanguages(repoName) {
   try {
     const response = await axios.get(
@@ -44,9 +44,9 @@ async function getLanguages(repoName) {
       }
     );
     const langs = Object.keys(response.data);
-    return langs.length > 0 ? langs.join(", ") : null;
-  } catch (err) {
-    return null;
+    return langs.length > 0 ? langs.join(", ") : "N/A";
+  } catch {
+    return "N/A";
   }
 }
 
@@ -77,13 +77,14 @@ function formatProject(repo, tech, star) {
   });
 
   const projectTable = [
-    "## 🚀 Highlight Projects",
-    "",
-    "| ⭐ | Project | Description | Tech | Link |",
-    "|----|---------|-------------|------|------|",
-    ...filteredRepos.map(repo =>
-      formatProject(repo, repo.tech, repo.star)
-    ),
+    `<details>`,
+    `<summary><b>📁 Click to view my GitHub Projects</b></summary>\n`,
+    `\n<table>`,
+    `\n\n| ⭐ | Project | Description | Tech | Link |`,
+    `|----|---------|-------------|------|------|`,
+    ...filteredRepos.map(repo => formatProject(repo, repo.tech, repo.star)),
+    `</table>`,
+    `</details>`
   ].join("\n");
 
   // Inject into README
@@ -98,5 +99,5 @@ function formatProject(repo, tech, star) {
   }
 
   fs.writeFileSync(readmePath, readme);
-  console.log("✅ README.md updated with latest project list");
+  console.log("✅ README.md updated with collapsible project list");
 })();
