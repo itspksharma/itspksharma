@@ -7,6 +7,7 @@ const readmePath = "README.md";
 
 const startMarker = "<!-- PROJECTS:START -->";
 const endMarker = "<!-- PROJECTS:END -->";
+const pinnedRepoName = "portfolio"; // Always show this first
 
 // Fetch repositories
 async function getRepositories() {
@@ -44,15 +45,15 @@ async function getLanguages(repoName) {
       }
     );
     const langs = Object.keys(response.data);
-    return langs.length > 0 ? langs.join(", ") : "N/A";
+    return langs.length > 0 ? langs.join(", ") : null;
   } catch {
-    return "N/A";
+    return null;
   }
 }
 
-// Format one row
-function formatProject(repo, tech, star) {
-  return `| ${star} | [${repo.name}](${repo.html_url}) | ${repo.description || "No description"} | ${tech} | [🔗 Visit](${repo.html_url}) |`;
+// Format a row
+function formatProject(index, repo, tech) {
+  return `| ${index} | [${repo.name}](${repo.html_url}) | ${repo.description || "No description"} | ${tech} | [🔗 Visit](${repo.html_url}) |`;
 }
 
 (async () => {
@@ -65,10 +66,10 @@ function formatProject(repo, tech, star) {
     const tech = await getLanguages(repo.name);
     if (!tech) continue;
 
-    const star = repo.stargazers_count > 0 ? "⭐" : "";
-    filteredRepos.push({ ...repo, tech, star });
+    filteredRepos.push({ ...repo, tech });
   }
 
+  // Sort by stars then latest activity
   filteredRepos.sort((a, b) => {
     if (b.stargazers_count !== a.stargazers_count) {
       return b.stargazers_count - a.stargazers_count;
@@ -76,20 +77,44 @@ function formatProject(repo, tech, star) {
     return new Date(b.pushed_at) - new Date(a.pushed_at);
   });
 
-  const projectTable = [
-    `<details>`,
-    `<summary><b>📁 Click to view my GitHub Projects</b></summary>\n`,
-    `\n<table>`,
-    `\n\n| ⭐ | Project | Description | Tech | Link |`,
-    `|----|---------|-------------|------|------|`,
-    ...filteredRepos.map(repo => formatProject(repo, repo.tech, repo.star)),
-    `</table>`,
-    `</details>`
+  // Separate portfolio project
+  const pinnedProject = filteredRepos.find(repo => repo.name.toLowerCase() === pinnedRepoName);
+  const otherProjects = filteredRepos.filter(repo => repo.name.toLowerCase() !== pinnedRepoName);
+
+  const pinnedTable = pinnedProject
+    ? [
+        "### 🎯 Featured Project: Portfolio",
+        "",
+        "| SL No. | Project | Description | Tech | Link |",
+        "|--------|---------|-------------|------|------|",
+        formatProject(1, pinnedProject, pinnedProject.tech),
+      ].join("\n")
+    : "";
+
+  const otherTableRows = otherProjects.map((repo, index) =>
+    formatProject(index + 2, repo, repo.tech) // start from 2 since 1 is for portfolio
+  );
+
+  const otherTable = [
+    "<details>",
+    "<summary><b>📁 Click to view all GitHub Projects</b></summary>\n",
+    "| SL No. | Project | Description | Tech | Link |",
+    "|--------|---------|-------------|------|------|",
+    ...otherTableRows,
+    "</details>"
+  ].join("\n");
+
+  const fullContent = [
+    "## 🚀 Highlight Projects",
+    "",
+    pinnedTable,
+    "",
+    otherTable
   ].join("\n");
 
   // Inject into README
   let readme = fs.readFileSync(readmePath, "utf8");
-  const newSection = `${startMarker}\n${projectTable}\n${endMarker}`;
+  const newSection = `${startMarker}\n${fullContent}\n${endMarker}`;
 
   const regex = new RegExp(`${startMarker}[\\s\\S]*?${endMarker}`, "gm");
   if (readme.match(regex)) {
@@ -99,5 +124,5 @@ function formatProject(repo, tech, star) {
   }
 
   fs.writeFileSync(readmePath, readme);
-  console.log("✅ README.md updated with collapsible project list");
+  console.log("✅ README.md updated with serial-numbered, filtered & collapsible projects!");
 })();
