@@ -88,18 +88,22 @@ const pawan = {
 ---
 
 ## 📊 GitHub Stats & Activity
+<!-- GitHub Profile Stats Section -->
 
- <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itspksharma&show_icons=true&theme=gruvbox&hide_border=true" width="47%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itspksharma&layout=compact&theme=gruvbox&hide_border=true" width="47%" />
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=itspksharma&theme=gruvbox&hide_border=true" width="47%" />
-</p>
+<table align="center">
+  <tr>
+    <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itspksharma&langs_count=10&theme=gruvbox&hide_border=true" width="100%" /></td>
+    <td>
+      <img src="https://streak-stats.demolab.com?user=itspksharma&theme=gruvbox&hide_border=true" width="100%" /><br />
+      <img src="https://github-readme-stats.vercel.app/api?username=itspksharma&show_icons=true&theme=gruvbox&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" width="100%" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itspksharma&theme=gruvbox&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=itspksharma&theme=gruvbox&hide_border=true" width="95%" />
 </p>
+
 
 
 ---
