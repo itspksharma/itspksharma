@@ -7,7 +7,7 @@ const readmePath = "README.md";
 
 const startMarker = "<!-- PROJECTS:START -->";
 const endMarker = "<!-- PROJECTS:END -->";
-const pinnedRepoName = "portfolio"; // Always show this first
+const pinnedRepoName = "my-portfolio"; // Portfolio must show separately
 
 // Fetch repositories
 async function getRepositories() {
@@ -69,7 +69,7 @@ function formatProject(index, repo, tech) {
     filteredRepos.push({ ...repo, tech });
   }
 
-  // Sort by stars then latest activity
+  // Sort by stars then recent activity
   filteredRepos.sort((a, b) => {
     if (b.stargazers_count !== a.stargazers_count) {
       return b.stargazers_count - a.stargazers_count;
@@ -77,33 +77,40 @@ function formatProject(index, repo, tech) {
     return new Date(b.pushed_at) - new Date(a.pushed_at);
   });
 
-  // Separate portfolio project
+  // Extract portfolio project separately
   const pinnedProject = filteredRepos.find(repo => repo.name.toLowerCase() === pinnedRepoName);
   const otherProjects = filteredRepos.filter(repo => repo.name.toLowerCase() !== pinnedRepoName);
 
+  // Index counter
+  let slNo = 1;
+
+  // Section: Featured Portfolio
   const pinnedTable = pinnedProject
     ? [
         "### 🎯 Featured Project: Portfolio",
         "",
         "| SL No. | Project | Description | Tech | Link |",
         "|--------|---------|-------------|------|------|",
-        formatProject(1, pinnedProject, pinnedProject.tech),
+        formatProject(slNo++, pinnedProject, pinnedProject.tech),
       ].join("\n")
     : "";
 
-  const otherTableRows = otherProjects.map((repo, index) =>
-    formatProject(index + 2, repo, repo.tech) // start from 2 since 1 is for portfolio
+  // Section: All Other Projects
+  const otherTableRows = otherProjects.map(repo =>
+    formatProject(slNo++, repo, repo.tech)
   );
 
   const otherTable = [
     "<details>",
     "<summary><b>📁 Click to view all GitHub Projects</b></summary>\n",
+    "",
     "| SL No. | Project | Description | Tech | Link |",
     "|--------|---------|-------------|------|------|",
     ...otherTableRows,
     "</details>"
   ].join("\n");
 
+  // Final README block
   const fullContent = [
     "## 🚀 Highlight Projects",
     "",
@@ -112,7 +119,7 @@ function formatProject(index, repo, tech) {
     otherTable
   ].join("\n");
 
-  // Inject into README
+  // Inject into README.md
   let readme = fs.readFileSync(readmePath, "utf8");
   const newSection = `${startMarker}\n${fullContent}\n${endMarker}`;
 
@@ -124,5 +131,5 @@ function formatProject(index, repo, tech) {
   }
 
   fs.writeFileSync(readmePath, readme);
-  console.log("✅ README.md updated with serial-numbered, filtered & collapsible projects!");
+  console.log("✅ README.md updated correctly with fixed SL No. and pinned portfolio project");
 })();
