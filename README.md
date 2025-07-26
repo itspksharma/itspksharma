@@ -57,18 +57,22 @@ const pawan = {
 <!-- PROJECTS:START -->
 ## 🚀 Highlight Projects
 
+### 🎯 Featured Project: Portfolio
 
+| SL No. | Project | Description | Tech | Link |
+|--------|---------|-------------|------|------|
+| 1 | [my-portfolio](https://github.com/itspksharma/my-portfolio) | My personal developer portfolio | CSS, JavaScript, HTML | [🔗 Visit](https://github.com/itspksharma/my-portfolio) |
 
 <details>
 <summary><b>📁 Click to view all GitHub Projects</b></summary>
 
+
 | SL No. | Project | Description | Tech | Link |
 |--------|---------|-------------|------|------|
 | 2 | [just-download](https://github.com/itspksharma/just-download) | 📥 Just-Download — A clean, no-hassle app to download videos in one click. | Python | [🔗 Visit](https://github.com/itspksharma/just-download) |
-| 3 | [my-portfolio](https://github.com/itspksharma/my-portfolio) | My personal developer portfolio | CSS, JavaScript, HTML | [🔗 Visit](https://github.com/itspksharma/my-portfolio) |
-| 4 | [chrome-mood-tab-extension](https://github.com/itspksharma/chrome-mood-tab-extension) | Live video Chrome tab with moods, quotes & weather | JavaScript, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/chrome-mood-tab-extension) |
-| 5 | [just-download-for-android](https://github.com/itspksharma/just-download-for-android) |  Mobile version of the "Just Download" app – built for Android using React Native (Frontend) and Python Flask (Backend). 🔗 Supports downloading videos from YouTube, Instagram, and Facebook. 🚀 Fast, Free, and Easy to Use – powered by a lightweight Python API. | Python | [🔗 Visit](https://github.com/itspksharma/just-download-for-android) |
-| 6 | [Hospital_MS](https://github.com/itspksharma/Hospital_MS) | This Project is Developed using ASP.Net Framework and SQL Server Database | ASP.NET, C#, CSS | [🔗 Visit](https://github.com/itspksharma/Hospital_MS) |
+| 3 | [chrome-mood-tab-extension](https://github.com/itspksharma/chrome-mood-tab-extension) | Live video Chrome tab with moods, quotes & weather | JavaScript, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/chrome-mood-tab-extension) |
+| 4 | [just-download-for-android](https://github.com/itspksharma/just-download-for-android) |  Mobile version of the "Just Download" app – built for Android using React Native (Frontend) and Python Flask (Backend). 🔗 Supports downloading videos from YouTube, Instagram, and Facebook. 🚀 Fast, Free, and Easy to Use – powered by a lightweight Python API. | Python | [🔗 Visit](https://github.com/itspksharma/just-download-for-android) |
+| 5 | [Hospital_MS](https://github.com/itspksharma/Hospital_MS) | This Project is Developed using ASP.Net Framework and SQL Server Database | ASP.NET, C#, CSS | [🔗 Visit](https://github.com/itspksharma/Hospital_MS) |
 </details>
 <!-- PROJECTS:END -->
 
