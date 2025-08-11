@@ -124,10 +124,10 @@ const pawan = {
 ### 📫 Contact
 
 ```yaml
-📧 Email:      pawansharma.rkl@gmail.com
-🔗 Portfolio:  https://itspksharma.github.io/my-portfolio/
+🌐 Website:    https://www.askdevpk.me/
+📧 Email:      Itspk_sharma@outlook.com
+🔗 Portfolio:  https://profile.askdevpk.me/
 💼 LinkedIn:   https://linkedin.com/in/itspksharma98/
-📱 WhatsApp:   https://wa.me/919658901536
 🧾 Dev.to:     https://dev.to/itspksharma
 ```
 
