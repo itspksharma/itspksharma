@@ -61,7 +61,7 @@ const pawan = {
 
 | SL No. | Project | Description | Tech | Link |
 |--------|---------|-------------|------|------|
-| 1 | [my-portfolio](https://github.com/itspksharma/my-portfolio) | My personal developer portfolio | CSS, JavaScript, HTML | [🔗 Visit](https://github.com/itspksharma/my-portfolio) |
+| 1 | [my-portfolio](https://github.com/itspksharma/my-portfolio) | My personal developer portfolio | JavaScript, HTML, CSS | [🔗 Visit](https://github.com/itspksharma/my-portfolio) |
 
 <details>
 <summary><b>📁 Click to view all GitHub Projects</b></summary>
@@ -71,12 +71,14 @@ const pawan = {
 |--------|---------|-------------|------|------|
 | 2 | [just-download](https://github.com/itspksharma/just-download) | 📥 Just-Download — A clean, no-hassle app to download videos in one click. | Python | [🔗 Visit](https://github.com/itspksharma/just-download) |
 | 3 | [chrome-mood-tab-extension](https://github.com/itspksharma/chrome-mood-tab-extension) | Live video Chrome tab with moods, quotes & weather | JavaScript, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/chrome-mood-tab-extension) |
-| 4 | [grih-chhaya_a_rental_app](https://github.com/itspksharma/grih-chhaya_a_rental_app) | A project named Grih-Chhaya – a culturally-inspired house rental app that offers short stays with a homely Indian touch. ✨ “A Shade of Home, Wherever You Go.”  This project is currently in active development to provide the best user experience and enhanced features. More updates coming soon! | JavaScript, PHP, CSS, Hack | [🔗 Visit](https://github.com/itspksharma/grih-chhaya_a_rental_app) |
-| 5 | [itspksharma-docker-multi-env](https://github.com/itspksharma/itspksharma-docker-multi-env) | Master centralized Docker environment for PHP, Node, MySQL, and more. | Dockerfile | [🔗 Visit](https://github.com/itspksharma/itspksharma-docker-multi-env) |
-| 6 | [sky-verse](https://github.com/itspksharma/sky-verse) | Real-time weather with immersive background visuals and matching quotes — feel the sky with Sky-Verse. ☁️🌦️ | JavaScript, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/sky-verse) |
-| 7 | [news-sathi](https://github.com/itspksharma/news-sathi) | An Indian-themed news reader app that brings trending news in a clean, minimalist UI 🇮🇳📱 | EJS, CSS, JavaScript | [🔗 Visit](https://github.com/itspksharma/news-sathi) |
-| 8 | [just-download-for-android](https://github.com/itspksharma/just-download-for-android) |  Mobile version of the "Just Download" app – built for Android using React Native (Frontend) and Python Flask (Backend). 🔗 Supports downloading videos from YouTube, Instagram, and Facebook. 🚀 Fast, Free, and Easy to Use – powered by a lightweight Python API. | Python | [🔗 Visit](https://github.com/itspksharma/just-download-for-android) |
-| 9 | [Hospital_MS](https://github.com/itspksharma/Hospital_MS) | This Project is Developed using ASP.Net Framework and SQL Server Database | ASP.NET, C#, CSS | [🔗 Visit](https://github.com/itspksharma/Hospital_MS) |
+| 4 | [my-dev-space](https://github.com/itspksharma/my-dev-space) | No description | Astro, JavaScript, CSS | [🔗 Visit](https://github.com/itspksharma/my-dev-space) |
+| 5 | [just-download-website](https://github.com/itspksharma/just-download-website) | Official website for Just Download app — desktop & mobile video downloader. | Astro, JavaScript, CSS | [🔗 Visit](https://github.com/itspksharma/just-download-website) |
+| 6 | [grih-chhaya_a_rental_app](https://github.com/itspksharma/grih-chhaya_a_rental_app) | A project named Grih-Chhaya – a culturally-inspired house rental app that offers short stays with a homely Indian touch. ✨ “A Shade of Home, Wherever You Go.”  This project is currently in active development to provide the best user experience and enhanced features. More updates coming soon! | JavaScript, PHP, CSS, Hack | [🔗 Visit](https://github.com/itspksharma/grih-chhaya_a_rental_app) |
+| 7 | [itspksharma-docker-multi-env](https://github.com/itspksharma/itspksharma-docker-multi-env) | Master centralized Docker environment for PHP, Node, MySQL, and more. | Dockerfile | [🔗 Visit](https://github.com/itspksharma/itspksharma-docker-multi-env) |
+| 8 | [sky-verse](https://github.com/itspksharma/sky-verse) | Real-time weather with immersive background visuals and matching quotes — feel the sky with Sky-Verse. ☁️🌦️ | JavaScript, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/sky-verse) |
+| 9 | [news-sathi](https://github.com/itspksharma/news-sathi) | An Indian-themed news reader app that brings trending news in a clean, minimalist UI 🇮🇳📱 | EJS, CSS, JavaScript | [🔗 Visit](https://github.com/itspksharma/news-sathi) |
+| 10 | [just-download-for-android](https://github.com/itspksharma/just-download-for-android) |  Mobile version of the "Just Download" app – built for Android using React Native (Frontend) and Python Flask (Backend). 🔗 Supports downloading videos from YouTube, Instagram, and Facebook. 🚀 Fast, Free, and Easy to Use – powered by a lightweight Python API. | Python | [🔗 Visit](https://github.com/itspksharma/just-download-for-android) |
+| 11 | [Hospital_MS](https://github.com/itspksharma/Hospital_MS) | This Project is Developed using ASP.Net Framework and SQL Server Database | ASP.NET, C#, CSS | [🔗 Visit](https://github.com/itspksharma/Hospital_MS) |
 </details>
 <!-- PROJECTS:END -->
 
