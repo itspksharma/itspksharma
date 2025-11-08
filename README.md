@@ -14,7 +14,7 @@
   <a href="https://linkedin.com/in/itspksharma98"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin" /></a>
   <a href="mailto:pawansharma.rkl@gmail.com"><img src="https://img.shields.io/badge/Gmail-red?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="https://wa.me/919658901536"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white" /></a>
-  <a href="https://itspksharma.github.io/my-portfolio/"><img src="https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=vercel" /></a>
+  <a href="https://www.askdevpk.me/"><img src="https://img.shields.io/badge/Portfolio-000?style=flat-square&logo=vercel" /></a>
   <a href="https://dev.to/itspksharma"><img src="https://img.shields.io/badge/Dev.to-000?style=flat-square&logo=devdotto" /></a>
 </p>
 
