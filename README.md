@@ -126,7 +126,7 @@ const pawan = {
 ```yaml
 🌐 Website:    https://www.askdevpk.me/
 📧 Email:      Itspk_sharma@outlook.com
-🔗 Portfolio:  https://profile.askdevpk.me/
+🔗 Portfolio:  https://www.askdevpk.me/
 💼 LinkedIn:   https://linkedin.com/in/itspksharma98/
 🧾 Dev.to:     https://dev.to/itspksharma
 ```
