@@ -55,32 +55,31 @@ const pawan = {
 ---
 
 <!-- PROJECTS:START -->
-## 🚀 Highlight Projects
+## 🚀 Latest Projects
 
-### 🎯 Featured Project: Portfolio
-
-| SL No. | Project | Description | Tech | Link |
-|--------|---------|-------------|------|------|
-| 1 | [my-portfolio](https://github.com/itspksharma/my-portfolio) | My personal developer portfolio | HTML, JavaScript, CSS | [🔗 Visit](https://github.com/itspksharma/my-portfolio) |
+| Project | Tech | Description | Updated |
+|--------|------|-------------|---------|
+| [devprofile-toolkit](https://github.com/itspksharma/devprofile-toolkit) | HTML, Python, Shell | GitHub Profile Analyzer + README Generator with Live Markdown Editor built using Django | Mar 2026 |
+| [my-dev-space](https://github.com/itspksharma/my-dev-space) | Astro, JavaScript, TypeScript | Personal developer portfolio website showcasing projects, technical blogs, and development work built with Astro. | Mar 2026 |
+| [lifeline-blood-donor-system](https://github.com/itspksharma/lifeline-blood-donor-system) | JavaScript, CSS, HTML | MERN-based blood donor management platform with real-time search, admin dashboard & urgent alerts. | Mar 2026 |
+| [just-download-website](https://github.com/itspksharma/just-download-website) | Astro, JavaScript, CSS | Official website for Just Download app — desktop & mobile video downloader. | Mar 2026 |
+| [TasteOfIndia](https://github.com/itspksharma/TasteOfIndia) | JavaScript, CSS, HTML | Vegetarian food ordering web app with live menu, user login and admin order panel. | Mar 2026 |
 
 <details>
-<summary><b>📁 Click to view all GitHub Projects</b></summary>
+<summary><b>📁 View All Other Projects</b></summary>
 
 
-| SL No. | Project | Description | Tech | Link |
-|--------|---------|-------------|------|------|
-| 2 | [just-download](https://github.com/itspksharma/just-download) | 📥 Just-Download — A clean, no-hassle app to download videos in one click. | Python | [🔗 Visit](https://github.com/itspksharma/just-download) |
-| 3 | [news-sathi](https://github.com/itspksharma/news-sathi) | An Indian-themed news reader app that brings trending news in a clean, minimalist UI 🇮🇳📱 | EJS, CSS, JavaScript | [🔗 Visit](https://github.com/itspksharma/news-sathi) |
-| 4 | [chrome-mood-tab-extension](https://github.com/itspksharma/chrome-mood-tab-extension) | Live video Chrome tab with moods, quotes & weather | JavaScript, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/chrome-mood-tab-extension) |
-| 5 | [my-dev-space](https://github.com/itspksharma/my-dev-space) | Personal developer portfolio website showcasing projects, technical blogs, and development work built with Astro. | Astro, JavaScript, TypeScript, CSS | [🔗 Visit](https://github.com/itspksharma/my-dev-space) |
-| 6 | [lifeline-blood-donor-system](https://github.com/itspksharma/lifeline-blood-donor-system) | MERN-based blood donor management platform with real-time search, admin dashboard & urgent alerts. | JavaScript, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/lifeline-blood-donor-system) |
-| 7 | [just-download-website](https://github.com/itspksharma/just-download-website) | Official website for Just Download app — desktop & mobile video downloader. | Astro, JavaScript, CSS | [🔗 Visit](https://github.com/itspksharma/just-download-website) |
-| 8 | [TasteOfIndia](https://github.com/itspksharma/TasteOfIndia) | Vegetarian food ordering web app with live menu, user login and admin order panel. | JavaScript, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/TasteOfIndia) |
-| 9 | [JustDownloadWebApp](https://github.com/itspksharma/JustDownloadWebApp) |  Mobile version of the "Just Download" app – built for Android using React Native (Frontend) and Python Flask (Backend). 🔗 Supports downloading videos from YouTube, Instagram, and Facebook. 🚀 Fast, Free, and Easy to Use – powered by a lightweight Python API. | JavaScript, TypeScript, Python, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/JustDownloadWebApp) |
-| 10 | [grih-chhaya_a_rental_app](https://github.com/itspksharma/grih-chhaya_a_rental_app) | A project named Grih-Chhaya – a culturally-inspired house rental app that offers short stays with a homely Indian touch. ✨ “A Shade of Home, Wherever You Go.”  This project is currently in active development to provide the best user experience and enhanced features. More updates coming soon! | JavaScript, PHP, CSS, Hack | [🔗 Visit](https://github.com/itspksharma/grih-chhaya_a_rental_app) |
-| 11 | [itspksharma-docker-multi-env](https://github.com/itspksharma/itspksharma-docker-multi-env) | Master centralized Docker environment for PHP, Node, MySQL, and more. | Dockerfile | [🔗 Visit](https://github.com/itspksharma/itspksharma-docker-multi-env) |
-| 12 | [sky-verse](https://github.com/itspksharma/sky-verse) | Real-time weather with immersive background visuals and matching quotes — feel the sky with Sky-Verse. ☁️🌦️ | JavaScript, CSS, HTML | [🔗 Visit](https://github.com/itspksharma/sky-verse) |
-| 13 | [Hospital_MS](https://github.com/itspksharma/Hospital_MS) | This Project is Developed using ASP.Net Framework and SQL Server Database | ASP.NET, C#, CSS | [🔗 Visit](https://github.com/itspksharma/Hospital_MS) |
+| Project | Tech | Description | Updated |
+|--------|------|-------------|---------|
+| [my-portfolio](https://github.com/itspksharma/my-portfolio) | HTML, JavaScript, CSS | My personal developer portfolio | Nov 2025 |
+| [JustDownloadWebApp](https://github.com/itspksharma/JustDownloadWebApp) | JavaScript, TypeScript, Python |  Mobile version of the "Just Download" app – built for Android using React Native (Frontend) and Python Flask (Backend). 🔗 Supports downloading videos from YouTube, Instagram, and Facebook. 🚀 Fast, Free, and Easy to Use – powered by a lightweight Python API. | Aug 2025 |
+| [just-download](https://github.com/itspksharma/just-download) | Python | 📥 Just-Download — A clean, no-hassle app to download videos in one click. | Aug 2025 |
+| [grih-chhaya_a_rental_app](https://github.com/itspksharma/grih-chhaya_a_rental_app) | JavaScript, PHP, CSS | A project named Grih-Chhaya – a culturally-inspired house rental app that offers short stays with a homely Indian touch. ✨ “A Shade of Home, Wherever You Go.”  This project is currently in active development to provide the best user experience and enhanced features. More updates coming soon! | Jul 2025 |
+| [itspksharma-docker-multi-env](https://github.com/itspksharma/itspksharma-docker-multi-env) | Dockerfile | Master centralized Docker environment for PHP, Node, MySQL, and more. | Jul 2025 |
+| [sky-verse](https://github.com/itspksharma/sky-verse) | JavaScript, CSS, HTML | Real-time weather with immersive background visuals and matching quotes — feel the sky with Sky-Verse. ☁️🌦️ | Jul 2025 |
+| [news-sathi](https://github.com/itspksharma/news-sathi) | EJS, CSS, JavaScript | An Indian-themed news reader app that brings trending news in a clean, minimalist UI 🇮🇳📱 | Jul 2025 |
+| [chrome-mood-tab-extension](https://github.com/itspksharma/chrome-mood-tab-extension) | JavaScript, CSS, HTML | Live video Chrome tab with moods, quotes & weather | Jul 2025 |
+| [Hospital_MS](https://github.com/itspksharma/Hospital_MS) | ASP.NET, C#, CSS | This Project is Developed using ASP.Net Framework and SQL Server Database | May 2023 |
 </details>
 <!-- PROJECTS:END -->
 
