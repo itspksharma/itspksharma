@@ -59,11 +59,11 @@ const pawan = {
 
 | Project | Tech | Description | Updated |
 |--------|------|-------------|---------|
-| [consultancy-admission-portal](https://github.com/itspksharma/consultancy-admission-portal) | TypeScript, JavaScript, CSS | No description | Mar 2026 |
+| [my-portfolio-v2](https://github.com/itspksharma/my-portfolio-v2) | CSS, JavaScript, HTML | No description | Apr 2026 |
+| [my-portfolio](https://github.com/itspksharma/my-portfolio) | HTML, JavaScript, CSS | My personal developer portfolio | Apr 2026 |
 | [my-dev-space](https://github.com/itspksharma/my-dev-space) | Astro, JavaScript, TypeScript | Personal developer portfolio website showcasing projects, technical blogs, and development work built with Astro. | Mar 2026 |
 | [devprofile-toolkit](https://github.com/itspksharma/devprofile-toolkit) | HTML, Python, Shell | GitHub Profile Analyzer + README Generator with Live Markdown Editor built using Django | Mar 2026 |
 | [lifeline-blood-donor-system](https://github.com/itspksharma/lifeline-blood-donor-system) | JavaScript, CSS, HTML | MERN-based blood donor management platform with real-time search, admin dashboard & urgent alerts. | Mar 2026 |
-| [just-download-website](https://github.com/itspksharma/just-download-website) | Astro, JavaScript, CSS | Official website for Just Download app — desktop & mobile video downloader. | Mar 2026 |
 
 <details>
 <summary><b>📁 View All Other Projects</b></summary>
@@ -71,8 +71,8 @@ const pawan = {
 
 | Project | Tech | Description | Updated |
 |--------|------|-------------|---------|
+| [just-download-website](https://github.com/itspksharma/just-download-website) | Astro, JavaScript, CSS | Official website for Just Download app — desktop & mobile video downloader. | Mar 2026 |
 | [TasteOfIndia](https://github.com/itspksharma/TasteOfIndia) | JavaScript, CSS, HTML | Vegetarian food ordering web app with live menu, user login and admin order panel. | Mar 2026 |
-| [my-portfolio](https://github.com/itspksharma/my-portfolio) | HTML, JavaScript, CSS | My personal developer portfolio | Nov 2025 |
 | [JustDownloadWebApp](https://github.com/itspksharma/JustDownloadWebApp) | JavaScript, TypeScript, Python |  Mobile version of the "Just Download" app – built for Android using React Native (Frontend) and Python Flask (Backend). 🔗 Supports downloading videos from YouTube, Instagram, and Facebook. 🚀 Fast, Free, and Easy to Use – powered by a lightweight Python API. | Aug 2025 |
 | [just-download](https://github.com/itspksharma/just-download) | Python | 📥 Just-Download — A clean, no-hassle app to download videos in one click. | Aug 2025 |
 | [grih-chhaya_a_rental_app](https://github.com/itspksharma/grih-chhaya_a_rental_app) | JavaScript, PHP, CSS | A project named Grih-Chhaya – a culturally-inspired house rental app that offers short stays with a homely Indian touch. ✨ “A Shade of Home, Wherever You Go.”  This project is currently in active development to provide the best user experience and enhanced features. More updates coming soon! | Jul 2025 |
